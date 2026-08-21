@@ -1,0 +1,101 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040812"/>
+      <stop offset="0.48" stop-color="#071B26"/>
+      <stop offset="1" stop-color="#081D1E"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 223) rotate(90) scale(145)">
+      <stop stop-color="#5EF2C7" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5EF2C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="165" y1="0" x2="1030" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55C7FF"/>
+      <stop offset="0.53" stop-color="#79F2D1"/>
+      <stop offset="1" stop-color="#C6FF78"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8CCBD0" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <style>
+      .flow { stroke-dasharray: 9 12; animation: stream 5s linear infinite; }
+      .flow.slow { animation-duration: 7s; animation-direction: reverse; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.2s ease-in-out infinite; }
+      .orbit { transform-origin: 600px 223px; animation: orbit 18s linear infinite; }
+      .blink { animation: blink 2.4s ease-in-out infinite; }
+      @keyframes stream { to { stroke-dashoffset: -84; } }
+      @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.92) } 50% { opacity:1; transform:scale(1.08) } }
+      @keyframes orbit { to { transform:rotate(360deg) } }
+      @keyframes blink { 0%,100% { opacity:.35 } 50% { opacity:1 } }
+      @media (prefers-reduced-motion: reduce) { .flow,.pulse,.orbit,.blink { animation:none !important; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="428" rx="29" stroke="#81E6D0" stroke-opacity="0.18"/>
+  <rect width="1200" height="430" rx="30" fill="url(#grid)"/>
+  <ellipse cx="600" cy="223" rx="310" ry="185" fill="url(#coreGlow)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="54" y="57" fill="#9FEBD9" font-size="14" font-weight="700" letter-spacing="4">JATIN SOHLOT / SYSTEMS PROFILE</text>
+    <circle cx="1128" cy="52" r="5" fill="#78F0C8" class="blink"/>
+    <text x="1110" y="58" text-anchor="end" fill="#9DC1C9" font-size="13" font-weight="650" letter-spacing="2">ONLINE</text>
+
+    <text x="54" y="113" fill="#F4FAFC" font-size="42" font-weight="760" letter-spacing="-.6">Health Intelligence</text>
+    <text x="54" y="157" fill="#F4FAFC" font-size="42" font-weight="760" letter-spacing="-.6">Command Center</text>
+    <text x="55" y="193" fill="#9CBAC2" font-size="16" font-weight="500" letter-spacing="1.4">SIGNALS IN  /  EVIDENCE THROUGH  /  TRUST OUT</text>
+
+    <g fill="#091D2B" stroke="#4DB9E8" stroke-opacity="0.55">
+      <rect x="55" y="236" width="140" height="37" rx="18.5"/>
+      <rect x="55" y="286" width="140" height="37" rx="18.5"/>
+      <rect x="55" y="336" width="140" height="37" rx="18.5"/>
+    </g>
+    <g fill="#B9DDE7" font-size="13" font-weight="700" letter-spacing="1.5">
+      <text x="125" y="260" text-anchor="middle">RECOVERY</text>
+      <text x="125" y="310" text-anchor="middle">SLEEP</text>
+      <text x="125" y="360" text-anchor="middle">ACTIVITY</text>
+    </g>
+    <circle cx="181" cy="254" r="4" fill="#5ACBFF" class="pulse"/>
+    <circle cx="181" cy="304" r="4" fill="#5ACBFF" class="pulse" style="animation-delay:.6s"/>
+    <circle cx="181" cy="354" r="4" fill="#5ACBFF" class="pulse" style="animation-delay:1.2s"/>
+
+    <g opacity="0.72" stroke="url(#signal)" stroke-width="2" class="flow">
+      <path d="M200 254C330 254 390 223 470 223"/>
+      <path d="M200 304C335 304 385 250 470 237"/>
+      <path d="M200 354C330 354 390 275 475 247"/>
+    </g>
+
+    <circle cx="600" cy="223" r="94" stroke="#70E9C7" stroke-opacity="0.14"/>
+    <circle cx="600" cy="223" r="74" stroke="#70E9C7" stroke-opacity="0.26" stroke-dasharray="4 10" class="orbit"/>
+    <circle cx="600" cy="223" r="55" fill="#0B2E31" stroke="#78F0C8" stroke-opacity="0.75"/>
+    <circle cx="600" cy="223" r="69" stroke="#78F0C8" stroke-opacity="0.18" stroke-width="10" filter="url(#glow)" class="pulse"/>
+    <text x="600" y="214" text-anchor="middle" fill="#8BF5D5" font-size="13" font-weight="750" letter-spacing="2.2">TRUSTED</text>
+    <text x="600" y="238" text-anchor="middle" fill="#F1FFFB" font-size="24" font-weight="800" letter-spacing="1">AI</text>
+    <text x="600" y="297" text-anchor="middle" fill="#789AA1" font-size="11" font-weight="650" letter-spacing="1.8">PROVENANCE PRESERVED</text>
+
+    <g opacity="0.78" stroke="url(#signal)" stroke-width="2" class="flow slow">
+      <path d="M725 223C805 223 850 254 955 254"/>
+      <path d="M725 237C810 250 850 304 955 304"/>
+      <path d="M720 247C805 275 850 354 955 354"/>
+    </g>
+
+    <g fill="#10251E" stroke="#90DC66" stroke-opacity="0.55">
+      <rect x="960" y="236" width="185" height="37" rx="18.5"/>
+      <rect x="960" y="286" width="185" height="37" rx="18.5"/>
+      <rect x="960" y="336" width="185" height="37" rx="18.5"/>
+    </g>
+    <g fill="#DCF6C9" font-size="12" font-weight="750" letter-spacing="1.25">
+      <text x="1052" y="260" text-anchor="middle">EXPLAINABLE INSIGHT</text>
+      <text x="1052" y="310" text-anchor="middle">CONFIDENCE</text>
+      <text x="1052" y="360" text-anchor="middle">HUMAN CONTROL</text>
+    </g>
+    <circle cx="974" cy="254" r="4" fill="#B4F27D" class="pulse" style="animation-delay:.3s"/>
+    <circle cx="974" cy="304" r="4" fill="#B4F27D" class="pulse" style="animation-delay:.9s"/>
+    <circle cx="974" cy="354" r="4" fill="#B4F27D" class="pulse" style="animation-delay:1.5s"/>
+
+    <text x="1145" y="405" text-anchor="end" fill="#68858C" font-size="11" font-weight="650" letter-spacing="2">AI ENGINEERING · HEALTH DATA · SECURE PLATFORMS</text>
+  </g>
+</svg>

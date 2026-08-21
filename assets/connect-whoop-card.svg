@@ -1,0 +1,74 @@
+<svg width="580" height="310" viewBox="0 0 580 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="12" x2="560" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1114"/>
+      <stop offset="1" stop-color="#17281D"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="45" y1="0" x2="305" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BD9FF"/>
+      <stop offset="1" stop-color="#B6F56C"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#E5FFD0" stroke-opacity="0.045"/>
+    </pattern>
+    <style>
+      .flow { stroke-dasharray:7 9; animation:stream 4.6s linear infinite; }
+      .pulse { transform-box:fill-box; transform-origin:center; animation:pulse 3s ease-in-out infinite; }
+      @keyframes stream { to { stroke-dashoffset:-64 } }
+      @keyframes pulse { 0%,100% { opacity:.4; transform:scale(.9) } 50% { opacity:1; transform:scale(1.12) } }
+      @media (prefers-reduced-motion: reduce) { .flow,.pulse { animation:none !important; } }
+    </style>
+  </defs>
+  <rect width="580" height="310" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="578" height="308" rx="23" stroke="#A4DD72" stroke-opacity="0.22"/>
+  <rect width="580" height="310" rx="24" fill="url(#grid)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="28" y="27" width="178" height="27" rx="13.5" fill="#18301E" stroke="#A6E46A" stroke-opacity="0.35"/>
+    <circle cx="45" cy="40.5" r="4" fill="#B4ED72" class="pulse"/>
+    <text x="58" y="45" fill="#CFF3A8" font-size="11" font-weight="750" letter-spacing="1.55">V3 CORE COMPLETE</text>
+    <text x="550" y="45" text-anchor="end" fill="#788C75" font-size="10" font-weight="700" letter-spacing="1.6">SYSTEM 02</text>
+
+    <g fill="#111E25" stroke="#5FBCE1" stroke-opacity="0.45">
+      <rect x="30" y="89" width="104" height="29" rx="14.5"/>
+      <rect x="30" y="128" width="104" height="29" rx="14.5"/>
+      <rect x="30" y="167" width="104" height="29" rx="14.5"/>
+      <rect x="30" y="206" width="104" height="29" rx="14.5"/>
+    </g>
+    <g fill="#A9D9EB" font-size="10.5" font-weight="700" letter-spacing="1.2">
+      <text x="82" y="108" text-anchor="middle">RECOVERY</text>
+      <text x="82" y="147" text-anchor="middle">SLEEP</text>
+      <text x="82" y="186" text-anchor="middle">NUTRITION</text>
+      <text x="82" y="225" text-anchor="middle">ACTIVITY</text>
+    </g>
+
+    <g stroke="url(#signal)" stroke-width="1.8" opacity="0.8" class="flow">
+      <path d="M136 103C185 103 195 133 231 145"/>
+      <path d="M136 142C184 142 195 150 231 156"/>
+      <path d="M136 181C184 181 195 166 231 164"/>
+      <path d="M136 220C185 220 195 184 231 174"/>
+    </g>
+
+    <circle cx="264" cy="160" r="48" fill="#143024" stroke="#A8E873" stroke-opacity="0.55"/>
+    <circle cx="264" cy="160" r="61" stroke="#A8E873" stroke-opacity="0.13" stroke-dasharray="3 8"/>
+    <text x="264" y="153" text-anchor="middle" fill="#DDF8C4" font-size="10" font-weight="750" letter-spacing="1.1">CANONICAL</text>
+    <text x="264" y="170" text-anchor="middle" fill="#F4FFEA" font-size="15" font-weight="800">HEALTH</text>
+    <text x="264" y="185" text-anchor="middle" fill="#DDF8C4" font-size="10" font-weight="750" letter-spacing="1.1">GRAPH</text>
+
+    <path d="M326 160H372" stroke="#B0EB7B" stroke-width="1.8" class="flow"/>
+    <path d="M364 153L373 160L364 167" stroke="#B0EB7B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="382" y="85" width="168" height="150" rx="17" fill="#13291C" stroke="#A8E873" stroke-opacity="0.28"/>
+    <text x="402" y="113" fill="#789B75" font-size="9.5" font-weight="700" letter-spacing="1.5">INTELLIGENCE LAYER</text>
+    <circle cx="403" cy="142" r="4" fill="#B4ED72"/>
+    <text x="416" y="146" fill="#D6F0C1" font-size="11.5" font-weight="700">Evidence engine</text>
+    <circle cx="403" cy="170" r="4" fill="#B4ED72"/>
+    <text x="416" y="174" fill="#D6F0C1" font-size="11.5" font-weight="700">Confidence model</text>
+    <circle cx="403" cy="198" r="4" fill="#B4ED72"/>
+    <text x="416" y="202" fill="#D6F0C1" font-size="11.5" font-weight="700">Explainable insight</text>
+
+    <path d="M30 260H550" stroke="#B7D69A" stroke-opacity="0.16"/>
+    <text x="30" y="284" fill="#82957D" font-size="11" font-weight="650" letter-spacing="1.05">PRIVATE CORE</text>
+    <text x="550" y="284" text-anchor="end" fill="#B6E987" font-size="11" font-weight="750" letter-spacing="1.05">PUBLIC EXPERIENCE → NEXT</text>
+  </g>
+</svg>

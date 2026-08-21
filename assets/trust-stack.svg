@@ -1,0 +1,101 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071019"/>
+      <stop offset="0.5" stop-color="#0A2024"/>
+      <stop offset="1" stop-color="#111F19"/>
+    </linearGradient>
+    <linearGradient id="top" x1="150" y1="0" x2="1050" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58C7F2"/>
+      <stop offset="0.5" stop-color="#67E2C0"/>
+      <stop offset="1" stop-color="#B2EA70"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#D3F4EA" stroke-opacity="0.035"/>
+    </pattern>
+    <style>
+      .sweep { animation:sweep 6s ease-in-out infinite; }
+      .pulse { transform-box:fill-box; transform-origin:center; animation:pulse 3.5s ease-in-out infinite; }
+      @keyframes sweep { 0%,100% { opacity:.15; transform:translateX(0) } 50% { opacity:.55; transform:translateX(890px) } }
+      @keyframes pulse { 0%,100% { opacity:.4; transform:scale(.9) } 50% { opacity:1; transform:scale(1.08) } }
+      @media (prefers-reduced-motion: reduce) { .sweep,.pulse { animation:none !important; } }
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="25" stroke="#79DDC7" stroke-opacity="0.17"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="42" y="52" fill="#83E8D2" font-size="13" font-weight="750" letter-spacing="3.1">THE TRUST STACK</text>
+    <text x="1158" y="52" text-anchor="end" fill="#718D93" font-size="11" font-weight="700" letter-spacing="1.7">AI EARNS ITS PLACE FROM THE BOTTOM UP</text>
+
+    <path d="M150 86H1050" stroke="url(#top)" stroke-width="2" opacity="0.5"/>
+    <rect x="150" y="82" width="5" height="182" rx="2.5" fill="#6DE2C5" opacity="0.16" class="sweep"/>
+
+    <g>
+      <rect x="42" y="97" width="206" height="168" rx="18" fill="#0C2130" stroke="#59BEE6" stroke-opacity="0.32"/>
+      <text x="62" y="123" fill="#5E899B" font-size="10" font-weight="750" letter-spacing="1.5">LAYER 01</text>
+      <circle cx="218" cy="119" r="6" fill="#5BC6EF" opacity="0.16"/>
+      <circle cx="218" cy="119" r="2.5" fill="#65D4FA" class="pulse"/>
+      <text x="62" y="158" fill="#F0FAFD" font-size="21" font-weight="790">PRIVACY</text>
+      <text x="62" y="188" fill="#9ABBC7" font-size="11.5" font-weight="600">Minimize collection.</text>
+      <text x="62" y="207" fill="#9ABBC7" font-size="11.5" font-weight="600">Isolate trust boundaries.</text>
+      <text x="62" y="226" fill="#9ABBC7" font-size="11.5" font-weight="600">Delete with intent.</text>
+      <text x="62" y="248" fill="#6E919F" font-size="9" font-weight="700" letter-spacing="1.1">ARCHITECTURE, NOT A POLICY</text>
+    </g>
+
+    <g>
+      <rect x="270" y="97" width="206" height="168" rx="18" fill="#0B282E" stroke="#5BD0D2" stroke-opacity="0.32"/>
+      <text x="290" y="123" fill="#618F93" font-size="10" font-weight="750" letter-spacing="1.5">LAYER 02</text>
+      <circle cx="446" cy="119" r="6" fill="#60DADD" opacity="0.16"/>
+      <circle cx="446" cy="119" r="2.5" fill="#65E2E1" class="pulse" style="animation-delay:.35s"/>
+      <text x="290" y="158" fill="#F0FCFC" font-size="21" font-weight="790">PROVENANCE</text>
+      <text x="290" y="188" fill="#9ABFC1" font-size="11.5" font-weight="600">Preserve the source.</text>
+      <text x="290" y="207" fill="#9ABFC1" font-size="11.5" font-weight="600">Version transformations.</text>
+      <text x="290" y="226" fill="#9ABFC1" font-size="11.5" font-weight="600">Document information loss.</text>
+      <text x="290" y="248" fill="#72989A" font-size="9" font-weight="700" letter-spacing="1.1">EVERY CLAIM HAS A LINEAGE</text>
+    </g>
+
+    <g>
+      <rect x="498" y="97" width="206" height="168" rx="18" fill="#0C2C29" stroke="#66DDBD" stroke-opacity="0.34"/>
+      <text x="518" y="123" fill="#668F87" font-size="10" font-weight="750" letter-spacing="1.5">LAYER 03</text>
+      <circle cx="674" cy="119" r="6" fill="#6AE6C3" opacity="0.16"/>
+      <circle cx="674" cy="119" r="2.5" fill="#72EBC8" class="pulse" style="animation-delay:.7s"/>
+      <text x="518" y="158" fill="#F0FFF9" font-size="21" font-weight="790">SECURITY</text>
+      <text x="518" y="188" fill="#9CC1B8" font-size="11.5" font-weight="600">Least privilege.</text>
+      <text x="518" y="207" fill="#9CC1B8" font-size="11.5" font-weight="600">Safe observability.</text>
+      <text x="518" y="226" fill="#9CC1B8" font-size="11.5" font-weight="600">Failure without exposure.</text>
+      <text x="518" y="248" fill="#73988F" font-size="9" font-weight="700" letter-spacing="1.1">THE DEFAULT PATH IS SAFE</text>
+    </g>
+
+    <g>
+      <rect x="726" y="97" width="206" height="168" rx="18" fill="#142C23" stroke="#8DDF91" stroke-opacity="0.34"/>
+      <text x="746" y="123" fill="#728D7A" font-size="10" font-weight="750" letter-spacing="1.5">LAYER 04</text>
+      <circle cx="902" cy="119" r="6" fill="#93E69B" opacity="0.16"/>
+      <circle cx="902" cy="119" r="2.5" fill="#9EEBA5" class="pulse" style="animation-delay:1.05s"/>
+      <text x="746" y="158" fill="#F3FFF4" font-size="21" font-weight="790">EVIDENCE</text>
+      <text x="746" y="188" fill="#AAC3AD" font-size="11.5" font-weight="600">Deterministic first.</text>
+      <text x="746" y="207" fill="#AAC3AD" font-size="11.5" font-weight="600">Evaluated behavior.</text>
+      <text x="746" y="226" fill="#AAC3AD" font-size="11.5" font-weight="600">Confidence made visible.</text>
+      <text x="746" y="248" fill="#829C84" font-size="9" font-weight="700" letter-spacing="1.1">FLUENCY IS NOT CORRECTNESS</text>
+    </g>
+
+    <g>
+      <rect x="954" y="97" width="204" height="168" rx="18" fill="#1B2D1B" stroke="#B2E673" stroke-opacity="0.36"/>
+      <text x="974" y="123" fill="#7F9371" font-size="10" font-weight="750" letter-spacing="1.5">LAYER 05</text>
+      <circle cx="1128" cy="119" r="6" fill="#B7EB76" opacity="0.16"/>
+      <circle cx="1128" cy="119" r="2.5" fill="#C1F082" class="pulse" style="animation-delay:1.4s"/>
+      <text x="974" y="158" fill="#FAFFF1" font-size="21" font-weight="790">EXPLAINABILITY</text>
+      <text x="974" y="188" fill="#B4C5A5" font-size="11.5" font-weight="600">Show the why.</text>
+      <text x="974" y="207" fill="#B4C5A5" font-size="11.5" font-weight="600">Expose limitations.</text>
+      <text x="974" y="226" fill="#B4C5A5" font-size="11.5" font-weight="600">Keep humans in control.</text>
+      <text x="974" y="248" fill="#8B9D7B" font-size="9" font-weight="700" letter-spacing="1.1">UNDERSTANDING IS A FEATURE</text>
+    </g>
+
+    <rect x="42" y="292" width="1116" height="40" rx="12" fill="#0B1918" stroke="#77D7BA" stroke-opacity="0.15"/>
+    <text x="63" y="317" fill="#6E918D" font-size="10" font-weight="750" letter-spacing="1.4">CONTROL PLANE</text>
+    <text x="205" y="318" fill="#DDF7EF" font-size="12" font-weight="780" letter-spacing="1.7">HUMAN JUDGMENT</text>
+    <path d="M358 312H884" stroke="url(#top)" stroke-opacity="0.35"/>
+    <text x="1137" y="318" text-anchor="end" fill="#A8DAD0" font-size="11" font-weight="700" letter-spacing="1.2">CONSENT · REVIEW · OVERRIDE · DELETE</text>
+  </g>
+</svg>

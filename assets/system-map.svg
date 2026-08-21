@@ -1,0 +1,123 @@
+<svg width="1200" height="370" viewBox="0 0 1200 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="1180" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111D"/>
+      <stop offset="0.55" stop-color="#0A232B"/>
+      <stop offset="1" stop-color="#101F19"/>
+    </linearGradient>
+    <linearGradient id="line" x1="92" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62C9F5"/>
+      <stop offset="0.5" stop-color="#68E6C2"/>
+      <stop offset="1" stop-color="#B5EA72"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#B8E6E4" stroke-opacity="0.04"/>
+    </pattern>
+    <style>
+      .flow { stroke-dasharray:8 11; animation:stream 4.8s linear infinite; }
+      .scan { animation:scan 5s ease-in-out infinite; }
+      .pulse { transform-box:fill-box; transform-origin:center; animation:pulse 3s ease-in-out infinite; }
+      @keyframes stream { to { stroke-dashoffset:-76 } }
+      @keyframes scan { 0%,100% { opacity:.12; transform:translateX(0) } 50% { opacity:.45; transform:translateX(840px) } }
+      @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.92) } 50% { opacity:1; transform:scale(1.08) } }
+      @media (prefers-reduced-motion: reduce) { .flow,.scan,.pulse { animation:none !important; } }
+    </style>
+  </defs>
+  <rect width="1200" height="370" rx="26" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="368" rx="25" stroke="#75DFC7" stroke-opacity="0.18"/>
+  <rect width="1200" height="370" rx="26" fill="url(#grid)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="42" y="52" fill="#83E8D2" font-size="13" font-weight="750" letter-spacing="3.1">CONNECT WHOOP / INTELLIGENCE PIPELINE</text>
+    <text x="1158" y="52" text-anchor="end" fill="#718D93" font-size="11" font-weight="700" letter-spacing="1.7">PROVIDER-NEUTRAL BY DESIGN</text>
+
+    <rect x="42" y="78" width="1116" height="195" rx="20" fill="#07131B" fill-opacity="0.55" stroke="#90D7D1" stroke-opacity="0.1"/>
+    <rect x="64" y="90" width="2" height="172" rx="1" fill="#6BD6FF" opacity="0.2" class="scan"/>
+
+    <g fill="#0E2330" stroke="#5FBCE1" stroke-opacity="0.42">
+      <rect x="67" y="106" width="118" height="29" rx="14.5"/>
+      <rect x="67" y="146" width="118" height="29" rx="14.5"/>
+      <rect x="67" y="186" width="118" height="29" rx="14.5"/>
+      <rect x="67" y="226" width="118" height="29" rx="14.5"/>
+    </g>
+    <g fill="#A7D7E8" font-size="10.5" font-weight="750" letter-spacing="1.2">
+      <text x="126" y="125" text-anchor="middle">WHOOP</text>
+      <text x="126" y="165" text-anchor="middle">APPLE HEALTH</text>
+      <text x="126" y="205" text-anchor="middle">GARMIN / OURA</text>
+      <text x="126" y="245" text-anchor="middle">NUTRITION</text>
+    </g>
+    <text x="126" y="96" text-anchor="middle" fill="#5E7E89" font-size="9" font-weight="700" letter-spacing="1.4">PROVIDER SIGNALS</text>
+
+    <path d="M195 180H236" stroke="url(#line)" stroke-width="2" class="flow"/>
+    <path d="M228 173L237 180L228 187" stroke="#70D4EF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <rect x="247" y="116" width="154" height="128" rx="18" fill="#0B2630" stroke="#5FCDE1" stroke-opacity="0.42"/>
+      <circle cx="274" cy="143" r="7" fill="#5FCDE1" opacity="0.18"/>
+      <circle cx="274" cy="143" r="3" fill="#72DDF0" class="pulse"/>
+      <text x="294" y="148" fill="#75A7B2" font-size="9" font-weight="700" letter-spacing="1.4">BOUNDARY 01</text>
+      <text x="324" y="181" text-anchor="middle" fill="#EAF9FB" font-size="16" font-weight="780">PROVIDER</text>
+      <text x="324" y="203" text-anchor="middle" fill="#EAF9FB" font-size="16" font-weight="780">ADAPTERS</text>
+      <text x="324" y="225" text-anchor="middle" fill="#7799A1" font-size="9.5" font-weight="650" letter-spacing="1">ISOLATE · VALIDATE</text>
+    </g>
+
+    <path d="M410 180H446" stroke="url(#line)" stroke-width="2" class="flow"/>
+    <path d="M438 173L447 180L438 187" stroke="#6DDDC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <rect x="457" y="102" width="171" height="156" rx="20" fill="#0C2C2B" stroke="#65DFC3" stroke-opacity="0.48"/>
+      <circle cx="486" cy="131" r="7" fill="#65DFC3" opacity="0.18"/>
+      <circle cx="486" cy="131" r="3" fill="#72E9CD" class="pulse" style="animation-delay:.5s"/>
+      <text x="505" y="136" fill="#75A99F" font-size="9" font-weight="700" letter-spacing="1.4">BOUNDARY 02</text>
+      <text x="542.5" y="174" text-anchor="middle" fill="#EFFFFB" font-size="17" font-weight="780">CANONICAL</text>
+      <text x="542.5" y="197" text-anchor="middle" fill="#EFFFFB" font-size="17" font-weight="780">HEALTH GRAPH</text>
+      <text x="542.5" y="222" text-anchor="middle" fill="#83AAA3" font-size="9.5" font-weight="650" letter-spacing=".8">SLEEP · RECOVERY · ACTIVITY</text>
+      <text x="542.5" y="238" text-anchor="middle" fill="#83AAA3" font-size="9.5" font-weight="650" letter-spacing=".8">NUTRITION · BIOMETRICS</text>
+    </g>
+
+    <path d="M637 180H673" stroke="url(#line)" stroke-width="2" class="flow"/>
+    <path d="M665 173L674 180L665 187" stroke="#76E6BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <rect x="684" y="116" width="147" height="128" rx="18" fill="#102D27" stroke="#79E5B6" stroke-opacity="0.4"/>
+      <text x="757.5" y="151" text-anchor="middle" fill="#7FA89A" font-size="9" font-weight="700" letter-spacing="1.4">DETERMINISTIC</text>
+      <text x="757.5" y="183" text-anchor="middle" fill="#F0FFF8" font-size="16" font-weight="780">EVIDENCE</text>
+      <text x="757.5" y="205" text-anchor="middle" fill="#F0FFF8" font-size="16" font-weight="780">ENGINE</text>
+      <text x="757.5" y="226" text-anchor="middle" fill="#80A398" font-size="9.5" font-weight="650" letter-spacing=".9">TESTABLE · TRACEABLE</text>
+    </g>
+
+    <path d="M840 180H876" stroke="url(#line)" stroke-width="2" class="flow"/>
+    <path d="M868 173L877 180L868 187" stroke="#94E894" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <rect x="887" y="116" width="124" height="128" rx="18" fill="#172D20" stroke="#9FDF78" stroke-opacity="0.4"/>
+      <text x="949" y="152" text-anchor="middle" fill="#849E78" font-size="9" font-weight="700" letter-spacing="1.2">CALIBRATED</text>
+      <text x="949" y="184" text-anchor="middle" fill="#F5FFEC" font-size="15" font-weight="780">CONFIDENCE</text>
+      <text x="949" y="205" text-anchor="middle" fill="#F5FFEC" font-size="15" font-weight="780">MODEL</text>
+      <text x="949" y="226" text-anchor="middle" fill="#879F7D" font-size="9.5" font-weight="650">LIMITS INCLUDED</text>
+    </g>
+
+    <path d="M1020 180H1052" stroke="url(#line)" stroke-width="2" class="flow"/>
+    <path d="M1044 173L1053 180L1044 187" stroke="#B6EB72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <rect x="1063" y="102" width="73" height="156" rx="20" fill="#1C311B" stroke="#B6EA75" stroke-opacity="0.48"/>
+      <circle cx="1099.5" cy="137" r="13" fill="#B6EA75" opacity="0.13"/>
+      <path d="M1092 137L1097 142L1107 131" stroke="#CBF399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1099.5" y="177" text-anchor="middle" fill="#F5FFE9" font-size="11" font-weight="800">INSIGHT</text>
+      <text x="1099.5" y="198" text-anchor="middle" fill="#F5FFE9" font-size="11" font-weight="800">YOU CAN</text>
+      <text x="1099.5" y="219" text-anchor="middle" fill="#F5FFE9" font-size="11" font-weight="800">AUDIT</text>
+      <text x="1099.5" y="240" text-anchor="middle" fill="#8CA47D" font-size="8" font-weight="700">NOT MAGIC</text>
+    </g>
+
+    <g>
+      <rect x="42" y="295" width="1116" height="40" rx="12" fill="#0A181C" stroke="#79CBC1" stroke-opacity="0.12"/>
+      <text x="64" y="320" fill="#63858B" font-size="10" font-weight="700" letter-spacing="1.2">INVARIANTS</text>
+      <circle cx="178" cy="315" r="3" fill="#63C9EF"/><text x="190" y="320" fill="#A5C5CB" font-size="11" font-weight="650">SOURCE PRESERVED</text>
+      <circle cx="352" cy="315" r="3" fill="#67DEC4"/><text x="364" y="320" fill="#A5C5CB" font-size="11" font-weight="650">LOSS DOCUMENTED</text>
+      <circle cx="517" cy="315" r="3" fill="#79E5B6"/><text x="529" y="320" fill="#A5C5CB" font-size="11" font-weight="650">CAUSATION NOT IMPLIED</text>
+      <circle cx="724" cy="315" r="3" fill="#9FDF78"/><text x="736" y="320" fill="#A5C5CB" font-size="11" font-weight="650">UNCERTAINTY VISIBLE</text>
+      <circle cx="909" cy="315" r="3" fill="#B6EA75"/><text x="921" y="320" fill="#A5C5CB" font-size="11" font-weight="650">HUMAN IN CONTROL</text>
+    </g>
+  </g>
+</svg>
