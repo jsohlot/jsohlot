@@ -14,7 +14,7 @@
   <a href="#selected-systems">Selected systems</a> ·
   <a href="#the-intelligence-pipeline">Intelligence pipeline</a> ·
   <a href="#the-trust-stack">Trust stack</a> ·
-  <a href="#currently-shipping">Currently shipping</a>
+  <a href="#current-focus">Current focus</a>
 </p>
 
 ## The thesis
@@ -38,12 +38,12 @@ That means intelligence with provenance. Recommendations with confidence. Privac
       <p><a href="https://serelora.com">Visit Serelora →</a></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/connect-whoop-card.svg" width="100%" alt="Connect Whoop v3 personal health intelligence system card">
-      <h3>Connect Whoop v3</h3>
-      <p><strong>Personal health intelligence</strong></p>
-      <p>A provider-neutral system for recovery, sleep, activity, workouts, nutrition, and biometrics—turning fragmented signals into explainable, confidence-aware insights.</p>
-      <p><code>Canonical models</code> <code>Adapters</code> <code>Evidence</code> <code>Explainability</code></p>
-      <p><strong>V3 core complete · public experience next</strong></p>
+      <img src="./assets/parivar-card.svg" width="100%" alt="Parivar global family health hub system card">
+      <h3>Parivar</h3>
+      <p><strong>Global family health hub</strong></p>
+      <p>I built Parivar to bring personal health and family care into one place. Personal Health keeps individual information private; Group Health helps families understand and follow up together through explicit permissions.</p>
+      <p><code>SwiftUI</code> <code>Swift / Vapor</code> <code>PostgreSQL</code> <code>Consent</code></p>
+      <p><strong>Built for families everywhere</strong></p>
     </td>
   </tr>
 </table>
@@ -81,20 +81,22 @@ This is the architecture behind the product philosophy: provider-specific behavi
 
 My default is not “add AI.” It is to earn the right to add AI by first establishing the boundaries, evidence, failure modes, and human controls the product requires.
 
-## Currently shipping
+## Current focus
 
 | Signal | Status |
 |:--|:--|
-| **Connect Whoop v3 core** | `COMPLETE` |
-| **Public-facing experience** | `IN PREPARATION` |
-| **Primary product loop** | Signals → evidence → explainable insight |
-| **Engineering emphasis** | Evaluation, privacy boundaries, provider neutrality, delivery confidence |
+| **Parivar** | `BUILT` · Global family health hub |
+| **Product experience** | Personal Health + Group Health |
+| **Family care** | Private by default, shared by explicit permission |
+| **Engineering emphasis** | Privacy, consent, explainability, delivery confidence |
 
 <details>
   <summary><strong>System posture</strong></summary>
   <br>
 
   - Health and biometric data are treated as highly sensitive.
+  - Adults own their health data; family administration does not grant access.
+  - Shared family views require explicit permission.
   - Provider integrations remain isolated behind explicit adapter boundaries.
   - Analytics and recommendations consume normalized canonical models.
   - Observations, correlations, hypotheses, and recommendations remain distinct.

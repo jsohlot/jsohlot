@@ -26,7 +26,7 @@
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <rect x="28" y="27" width="178" height="27" rx="13.5" fill="#18301E" stroke="#A6E46A" stroke-opacity="0.35"/>
     <circle cx="45" cy="40.5" r="4" fill="#B4ED72" class="pulse"/>
-    <text x="58" y="45" fill="#CFF3A8" font-size="11" font-weight="750" letter-spacing="1.55">V3 CORE COMPLETE</text>
+    <text x="58" y="45" fill="#CFF3A8" font-size="11" font-weight="750" letter-spacing="1.55">PARIVAR · BUILT</text>
     <text x="550" y="45" text-anchor="end" fill="#788C75" font-size="10" font-weight="700" letter-spacing="1.6">SYSTEM 02</text>
 
     <g fill="#111E25" stroke="#5FBCE1" stroke-opacity="0.45">
@@ -36,10 +36,10 @@
       <rect x="30" y="206" width="104" height="29" rx="14.5"/>
     </g>
     <g fill="#A9D9EB" font-size="10.5" font-weight="700" letter-spacing="1.2">
-      <text x="82" y="108" text-anchor="middle">RECOVERY</text>
-      <text x="82" y="147" text-anchor="middle">SLEEP</text>
-      <text x="82" y="186" text-anchor="middle">NUTRITION</text>
-      <text x="82" y="225" text-anchor="middle">ACTIVITY</text>
+      <text x="82" y="108" text-anchor="middle">PERSONAL</text>
+      <text x="82" y="147" text-anchor="middle">FAMILY</text>
+      <text x="82" y="186" text-anchor="middle">CONSENT</text>
+      <text x="82" y="225" text-anchor="middle">FOLLOW-UP</text>
     </g>
 
     <g stroke="url(#signal)" stroke-width="1.8" opacity="0.8" class="flow">
@@ -51,24 +51,24 @@
 
     <circle cx="264" cy="160" r="48" fill="#143024" stroke="#A8E873" stroke-opacity="0.55"/>
     <circle cx="264" cy="160" r="61" stroke="#A8E873" stroke-opacity="0.13" stroke-dasharray="3 8"/>
-    <text x="264" y="153" text-anchor="middle" fill="#DDF8C4" font-size="10" font-weight="750" letter-spacing="1.1">CANONICAL</text>
+    <text x="264" y="153" text-anchor="middle" fill="#DDF8C4" font-size="10" font-weight="750" letter-spacing="1.1">PARIVAR</text>
     <text x="264" y="170" text-anchor="middle" fill="#F4FFEA" font-size="15" font-weight="800">HEALTH</text>
-    <text x="264" y="185" text-anchor="middle" fill="#DDF8C4" font-size="10" font-weight="750" letter-spacing="1.1">GRAPH</text>
+    <text x="264" y="185" text-anchor="middle" fill="#DDF8C4" font-size="10" font-weight="750" letter-spacing="1.1">HUB</text>
 
     <path d="M326 160H372" stroke="#B0EB7B" stroke-width="1.8" class="flow"/>
     <path d="M364 153L373 160L364 167" stroke="#B0EB7B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 
     <rect x="382" y="85" width="168" height="150" rx="17" fill="#13291C" stroke="#A8E873" stroke-opacity="0.28"/>
-    <text x="402" y="113" fill="#789B75" font-size="9.5" font-weight="700" letter-spacing="1.5">INTELLIGENCE LAYER</text>
+    <text x="402" y="113" fill="#789B75" font-size="9.5" font-weight="700" letter-spacing="1.5">FAMILY HEALTH</text>
     <circle cx="403" cy="142" r="4" fill="#B4ED72"/>
-    <text x="416" y="146" fill="#D6F0C1" font-size="11.5" font-weight="700">Evidence engine</text>
+    <text x="416" y="146" fill="#D6F0C1" font-size="11.5" font-weight="700">Personal Health</text>
     <circle cx="403" cy="170" r="4" fill="#B4ED72"/>
-    <text x="416" y="174" fill="#D6F0C1" font-size="11.5" font-weight="700">Confidence model</text>
+    <text x="416" y="174" fill="#D6F0C1" font-size="11.5" font-weight="700">Group Health</text>
     <circle cx="403" cy="198" r="4" fill="#B4ED72"/>
-    <text x="416" y="202" fill="#D6F0C1" font-size="11.5" font-weight="700">Explainable insight</text>
+    <text x="416" y="202" fill="#D6F0C1" font-size="11.5" font-weight="700">Explicit consent</text>
 
     <path d="M30 260H550" stroke="#B7D69A" stroke-opacity="0.16"/>
-    <text x="30" y="284" fill="#82957D" font-size="11" font-weight="650" letter-spacing="1.05">PRIVATE CORE</text>
-    <text x="550" y="284" text-anchor="end" fill="#B6E987" font-size="11" font-weight="750" letter-spacing="1.05">PUBLIC EXPERIENCE → NEXT</text>
+    <text x="30" y="284" fill="#82957D" font-size="11" font-weight="650" letter-spacing="1.05">PRIVATE BY DEFAULT</text>
+    <text x="550" y="284" text-anchor="end" fill="#B6E987" font-size="11" font-weight="750" letter-spacing="1.05">BUILT FOR FAMILIES</text>
   </g>
 </svg>
