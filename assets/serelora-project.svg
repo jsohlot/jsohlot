@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180" role="img" aria-label="Serelora: AI for the work around patient care">
+ <rect width="560" height="180" rx="14" fill="#142530"/>
+ <path d="M0 164H560V180H0Z" fill="#8be0ce" opacity=".13"/>
+ <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+ <text x="26" y="33" fill="#8be0ce" font-size="12" font-weight="600" letter-spacing="1.9">HEALTHCARE AI</text>
+ <text x="24" y="91" fill="#f5f8f7" font-size="42" font-weight="650" letter-spacing="-1.4">Serelora</text>
+ <text x="26" y="130" fill="#b1c3cd" font-size="17">AI for the work around patient care</text>
+ </g>
+ <g transform="translate(452 51)" stroke="#8be0ce" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect width="68" height="68" rx="16"/><path d="M23 21H45V47H23Z" opacity=".25"/><path d="M34 20V48M20 34H48"/></g>
+ </svg>

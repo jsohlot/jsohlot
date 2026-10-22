@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="352" viewBox="0 0 1200 352" role="img" aria-labelledby="title desc">
+  <title id="title">Jatin Sohlot</title><desc id="desc">Software engineer and Serelora co-founder. AI, full-stack development, and healthcare.</desc>
+  <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#4a626b" opacity=".12"/></pattern></defs>
+  <rect width="1200" height="352" rx="22" fill="#f2f5f4"/>
+  <rect x="720" width="480" height="352" rx="22" fill="url(#dots)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+  <rect x="48" y="43" width="28" height="3" rx="1.5" fill="#087b75"/>
+  <text x="88" y="49" fill="#4a626b" font-size="13" font-weight="600" letter-spacing="1.8">SOFTWARE ENGINEER / CO-FOUNDER</text>
+  <text x="46" y="139" fill="#132c35" font-size="68" font-weight="700" letter-spacing="-2.6">Jatin Sohlot</text>
+  <text x="49" y="196" fill="#132c35" font-size="29" font-weight="400">AI, full-stack development,</text>
+  <text x="49" y="235" fill="#132c35" font-size="29" font-weight="400">and healthcare.</text>
+  <text x="49" y="303" fill="#4a626b" font-size="16">Co-Founder &amp; CIO at Serelora</text>
+  </g>
+  <g transform="translate(788 59)">
+    <rect x="17" y="20" width="321" height="230" rx="15" fill="#dcece8" opacity=".6"/>
+    <rect width="321" height="230" rx="15" fill="#ffffff" stroke="#d2dfdd"/>
+    <path d="M0 43H321" stroke="#d2dfdd"/>
+    <circle cx="23" cy="22" r="4" fill="#087b75"/><circle cx="39" cy="22" r="4" fill="#4a626b" opacity=".5"/><circle cx="55" cy="22" r="4" fill="#4a626b" opacity=".25"/>
+    <g fill="none" stroke="#087b75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M73 82L54 100L73 118M248 82L267 100L248 118"/>
+    <path d="M94 100H126L140 79L158 121L176 94L187 100H227"/>
+    </g>
+    <path d="M26 147H295" stroke="#d2dfdd"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#4a626b">
+    <text x="27" y="177">AI systems</text><text x="180" y="177">Web &amp; APIs</text>
+    <text x="27" y="205">Native iOS</text><text x="180" y="205">Data &amp; privacy</text>
+    </g>
+  </g>
+  </svg>
